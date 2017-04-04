@@ -1,0 +1,416 @@
+@media screen and (min-width:320px) {
+
+	body {
+		margin:0;
+	}
+
+	ul,
+	h1 {
+		margin:0;
+	}
+
+	p, li, span {
+		font-family: 'Average', serif;
+	}
+
+	h1, h2, h3, h4, h5 {
+		font-family: 'Fjalla One', sans-serif;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.header {
+		height:100vh;
+		background-color:#6495ED;
+	}
+
+	.logo {
+		padding:1em 0;
+	}
+
+	.logo h1 {
+		text-align: center;
+		font-size:2.5em;
+	}
+
+	.logo h1,
+	.heading-container h1 {
+		color:#fdfdc5;
+	}
+
+	.nav ul,
+	.social {
+		list-style: none;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	.social {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.heading-container {
+	    text-align: center;
+	    margin: 0 auto;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    flex-direction: column;
+	}
+
+	.heading-container h1 {
+		font-size:1.55em;
+	}
+
+	.heading-container h1:nth-of-type(odd) {
+		padding-bottom:0.5em;
+	}
+
+	.btn-container {
+    	margin-top: 1em;
+	}
+
+	.btn {
+	    border: 2px solid #fdfdc5;
+	    padding: 0.5em 1.5em;
+	    border-radius: 20px;
+	}
+
+	.btn:hover {
+		cursor:pointer;
+		background-color:#3174ec;
+		padding:0.6em 1.6em;
+	}
+
+	.btn span {
+	    color: #fdfdc5;
+	    font-weight: bolder;
+	    font-size: 1.25em;
+	}
+
+	.nav li {
+		line-height: 40px;
+		height: 40px;
+		color:#6495ED;
+		background-color:#fdfdc5;
+		border-bottom: 1px #6495ED solid;
+	}
+
+	.nav li:hover {
+		cursor:pointer;
+		background-color:#fbfb9c;
+	}
+	 
+	.nav a {
+	  text-decoration: none;
+	  color: #fff;
+	  display: container;
+	  /*transition: .3s background-color;*/
+	}
+	 
+	.nav a.active {
+	  cursor: default;
+	}
+
+	.heading-container {
+		width:85%;
+		height:65%;
+	}
+
+	.image-container {
+		width:100%;
+		height:100%;
+	}
+
+	.content {
+		background-color:#fff;
+		text-align: center;
+	}
+
+	.content-container {
+		padding: 1.2em;
+    	text-align: center;
+    	border-bottom: 4px double #808080;
+	}
+
+	.cover-container {
+	    background-color: #FFF;
+	    display: flex;
+	    justify-content: flex-end;
+	    align-items: center;
+	}
+
+	.testimonial {
+		padding:1em;
+	}
+
+	.testimonial p {
+		text-align: center;
+		font-style: italic;
+	}
+
+	.testimonial p:nth-last-of-type(odd) {
+		font-weight: bolder;
+	}
+
+	ul.social img {
+		height:2.5em;
+	}
+
+	.social-container {
+		background-color:#efefef;
+	}
+
+	.social-container h2 {
+		text-align: center;
+		margin-top:0;
+		margin-bottom:0.5em;
+		padding-top:0.75em;
+		font-size:1.25em;
+	}
+
+	.social li {
+		padding:0 0.3em 0.5em 0.3em;
+	}
+
+	.social li:hover {
+		opacity:0.85;
+		cursor:pointer;
+	}
+
+	.repo-container {
+		background-color:#6495ED;
+		padding:1em;
+		border-bottom:5px double #fff;
+	}
+
+	.repo-col {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		width:100%;
+		color:#fff;
+	}
+
+	.repo-col ul {
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		color:#fff;
+	}
+
+	.yellow {
+		background-color:#FBFB9C;
+	}
+}
+
+@media screen and (min-width:760px) {
+
+	.repo-container {
+		display: flex;
+	}
+
+	.repo-col {
+		width:50%;
+	}
+
+	ul.social img {
+		height:3.75em;
+	}
+
+	.social li {
+		padding:0 0.4em 0.75em 0.4em;
+	}
+
+	.social-container h2 {
+		font-size:1.5em;
+		margin-bottom:1em;
+	}
+
+	.content {
+		height:24em;
+		display: flex;
+	}
+
+	.image-container {
+		width:34em;
+	}
+
+	.profile-img {
+		height:100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.profile-img img {
+		height:100%;
+		width:100%;
+	}
+
+	.cover-container {
+	    background-image: url(../img/Coast-Cricket-Protein.jpg);
+	    height: 40em;
+	    background-color: #FFF;
+	    background-size: cover;
+	    background-position-x: 50%;
+	    display: flex;
+	    justify-content: flex-end;
+	    align-items: center;
+	}
+
+	.testimonial {
+		width:40%;
+		padding:30px;
+		text-align: center;
+		border-radius: 15px;
+	}
+
+	.testimonial p {
+		color: #3e3e3e;
+    	font-size: 1.15em;
+	}
+
+	.content-container {
+		width:59%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: left;
+		font-size:0.95em;
+		border-bottom:none;
+	}
+
+	.nav ul {
+	  list-style: none;
+	  text-align: center;
+	  padding: 0;
+	  margin: 0;
+	}
+
+	.nav li {
+	  font-size: 1.2em;
+	  line-height: 40px;
+	  height: 40px;
+	  background-color:transparent;
+	}
+	 
+	.nav a {
+	  text-decoration: none;
+	  color: #fff;
+	  display: container;
+	  /*transition: .3s background-color;*/
+	}
+	 
+	.nav a.active {
+	  cursor: default;
+	}
+
+	.top-nav {
+		display: flex;
+		align-items: center;
+		height:5em;
+	}
+
+	.logo {
+		width:30%;
+		padding:0;
+	}
+
+	.logo h1 {
+		padding-left:25px;
+		text-align: left;
+	}
+
+	.nav {
+		width:70%;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.heading-container {
+		width:81%;
+		height:85%;
+	}
+
+	.nav li {
+		float: right;
+		padding: 0 20px;
+		color:#dadada;
+	}
+
+	.nav li:hover {
+		color: #6495ED;
+		cursor: pointer;
+	}
+
+	.nav ul {
+		overflow: auto;
+	}
+}
+
+@media screen and (min-width:950px) {
+	
+	.content-container p:nth-of-type(even) {
+		margin-left:-5em;
+		background-color:#fff;
+		font-size:1.15em;
+		padding:1.15em;
+	}
+
+	.content-container {
+		font-size:1em;
+	}
+
+	.repo-container {
+		height:24em;
+	}
+
+	.image-container {
+		width:27em;
+	}
+
+	.nav {
+		padding-right:40px;
+	}
+
+	.btn span {
+		font-size:1.75em;
+	}
+
+	.heading-container h1 {
+		font-size:2.5em;
+	}
+}
+
+@media screen and (min-width:1300px) {
+	
+	.nav {
+		padding-right:60px;
+	}
+
+	.content {
+		height:28em;
+	}
+
+	.content-container {
+		font-size:1.2em;
+	}
+
+	.content-container p:nth-of-type(even) {
+		margin-left:-5em;
+	}
+
+	.image-container {
+		width:30em;
+	}
+
+}
